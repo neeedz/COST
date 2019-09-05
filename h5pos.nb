@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     48869,       1446]
-NotebookOptionsPosition[     48453,       1427]
-NotebookOutlinePosition[     48809,       1443]
-CellTagsIndexPosition[     48766,       1440]
+NotebookDataLength[     52006,       1563]
+NotebookOptionsPosition[     51087,       1527]
+NotebookOutlinePosition[     51443,       1543]
+CellTagsIndexPosition[     51400,       1540]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1423,6 +1423,106 @@ Cell[BoxData[
   RowBox[{"t", ">", 
    RowBox[{"-", "1.5072059759621659`"}]}]}]], "Output",
  CellChangeTimes->{3.776706483573107*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"n5", "[", 
+        RowBox[{"k", ",", "t"}], "]"}], "/.", 
+       RowBox[{"k", "\[Rule]", "0"}]}], ")"}], ">", "0"}], ",", "t"}], "]"}], 
+  "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "1.5026370222627152`"}], "<", "t", "<", 
+  "16.01839027609234`"}]], "Output",
+ CellChangeTimes->{3.776706957262351*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"n5", "[", 
+        RowBox[{"k", ",", "t"}], "]"}], "/.", 
+       RowBox[{"k", "\[Rule]", "0.0001"}]}], ")"}], ">", "0"}], ",", "t"}], 
+   "]"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Reduce", "::", "ratnz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Reduce was unable to solve the system with inexact \
+coefficients. The answer was obtained by solving a corresponding exact system \
+and numericizing the result. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Reduce/ratnz\\\", ButtonNote -> \
+\\\"Reduce::ratnz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.776706963031176*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "11453.928175564171`"}], "<", "t", "<", 
+   RowBox[{"-", "6248.323297261667`"}]}], "||", 
+  RowBox[{
+   RowBox[{"-", "1.5028343248170684`"}], "<", "t", "<", 
+   "16.193760046389805`"}], "||", 
+  RowBox[{"t", ">", "1439.115934431054`"}]}]], "Output",
+ CellChangeTimes->{3.7767069630336943`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"n5", "[", 
+        RowBox[{"k", ",", "t"}], "]"}], "/.", 
+       RowBox[{"k", "\[Rule]", "1"}]}], ")"}], ">", "0"}], ",", "t"}], "]"}], 
+  "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"t", ">", 
+  RowBox[{"-", "2.4692074133302735`"}]}]], "Output",
+ CellChangeTimes->{3.776706969775023*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"Reduce", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"n5", "[", 
+        RowBox[{"k", ",", "t"}], "]"}], "/.", 
+       RowBox[{"k", "\[Rule]", "100000"}]}], ")"}], ">", "0"}], ",", "t"}], 
+   "]"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"t", ">", 
+  RowBox[{"-", "100001.00000624992`"}]}]], "Output",
+ CellChangeTimes->{3.776706975005707*^9}]
 }, Open  ]]
 },
 WindowSize->{808, 692},
@@ -1446,7 +1546,24 @@ Cell[558, 20, 46752, 1368, 2341, "Input"],
 Cell[CellGroupData[{
 Cell[47335, 1392, 296, 10, 28, "Input"],
 Cell[47634, 1404, 541, 11, 41, "Message"],
-Cell[48178, 1417, 259, 7, 62, "Output"]
+Cell[48178, 1417, 259, 7, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48474, 1429, 290, 10, 28, "Input"],
+Cell[48767, 1441, 158, 4, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48962, 1450, 296, 10, 28, "Input"],
+Cell[49261, 1462, 541, 11, 41, "Message"],
+Cell[49805, 1475, 344, 9, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50186, 1489, 290, 10, 28, "Input"],
+Cell[50479, 1501, 128, 3, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50644, 1509, 296, 10, 28, "Input"],
+Cell[50943, 1521, 128, 3, 62, "Output"]
 }, Open  ]]
 }
 ]
